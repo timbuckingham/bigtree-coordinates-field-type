@@ -1,0 +1,98 @@
+{
+    "type": "extension",
+    "id": "com.fastspot.coordinates-field-type",
+    "version": "1.0",
+    "revision": 2,
+    "compatibility": "4.2+",
+    "title": "Coordinates Field Type",
+    "description": "Draws a Google Map that lets you drop a marker to choose a latitude and longitude. The result is stored in a JSON array. This field type also implements a text box for searching via address and returning a marker.",
+    "keywords": [
+        "google maps",
+        "map",
+        "latitude",
+        "longitude",
+        "coordinates",
+        "maps"
+    ],
+    "author": {
+        "name": "Tim Buckingham",
+        "url": "http://www.fastspot.com",
+        "email": "tim@fastspot.com"
+    },
+    "licenses": {
+        "LGPL v3": "http://opensource.org/licenses/LGPL-3.0"
+    },
+    "components": {
+        "module_groups": [],
+        "modules": [],
+        "templates": [],
+        "callouts": [],
+        "settings": [
+            {
+                "id": "com.fastspot.coordinates-field-type*api-key",
+                "value": "AIzaSyBk46-POeftG5QOfPDLbbPdqu1Je7AlDgE",
+                "type": "text",
+                "options": "",
+                "name": "Coordinates Field Type - API Key",
+                "description": "<p>Enter a Google Maps Javascript API key to enable the Coordinates field type.</p>",
+                "locked": "on",
+                "system": "",
+                "encrypted": "on",
+                "extension": "com.fastspot.coordinates-field-type"
+            },
+            {
+                "id": "com.fastspot.coordinates-field-type*default-latitude",
+                "value": "39.2904",
+                "type": "text",
+                "options": "",
+                "name": "Coordinates Field Type - Default Latitude",
+                "description": "<p>This is the default latitude at which the map will be centered when choosing a marker drop point.</p>",
+                "locked": "on",
+                "system": "",
+                "encrypted": "",
+                "extension": "com.fastspot.coordinates-field-type"
+            },
+            {
+                "id": "com.fastspot.coordinates-field-type*default-longitude",
+                "value": "-76.6122",
+                "type": "text",
+                "options": "",
+                "name": "Coordinates Field Type - Default Longitude",
+                "description": "<p>This is the default longitude at which the map will be centered when choosing a marker drop point.</p>",
+                "locked": "on",
+                "system": "",
+                "encrypted": "",
+                "extension": "com.fastspot.coordinates-field-type"
+            },
+            {
+                "id": "com.fastspot.coordinates-field-type*default-zoom",
+                "value": "15",
+                "type": "text",
+                "options": "",
+                "name": "Coordinates Field Type - Default Zoom",
+                "description": "<p>This is the default zoom level at which the map will be drawn when choosing a marker drop point.</p>",
+                "locked": "on",
+                "system": "",
+                "encrypted": "",
+                "extension": "com.fastspot.coordinates-field-type"
+            }
+        ],
+        "feeds": [],
+        "field_types": [
+            {
+                "id": "com.fastspot.coordinates-field-type*coordinates",
+                "name": "Coordinates",
+                "use_cases": {
+                    "templates": "on",
+                    "modules": "on",
+                    "callouts": "on",
+                    "settings": "on"
+                },
+                "self_draw": null,
+                "extension": "com.fastspot.coordinates-field-type"
+            }
+        ],
+        "tables": []
+    },
+    "sql_revisions": []
+}
