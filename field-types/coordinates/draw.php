@@ -8,7 +8,7 @@
 <?php
 	} else {
 		// Get default zoom level
-		$zoom_level = $cms->getSetting("zoom-level") ?: 15;
+		$zoom_level = $cms->getSetting("default-zoom") ?: 15;
 		
 		// Bring in defaults from field options and settings
 		$latitude = $field["options"]["default_latitude"] ?: $cms->getSetting("default-latitude");

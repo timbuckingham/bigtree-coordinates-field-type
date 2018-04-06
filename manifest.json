@@ -1,8 +1,8 @@
 {
     "type": "extension",
     "id": "com.fastspot.coordinates-field-type",
-    "version": "1.0",
-    "revision": 2,
+    "version": "1.0.1",
+    "revision": 3,
     "compatibility": "4.2+",
     "title": "Coordinates Field Type",
     "description": "Draws a Google Map that lets you drop a marker to choose a latitude and longitude. The result is stored in a JSON array. This field type also implements a text box for searching via address and returning a marker.",
