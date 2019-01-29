@@ -1,8 +1,8 @@
 {
     "type": "extension",
     "id": "com.fastspot.coordinates-field-type",
-    "version": "1.0.1",
-    "revision": 3,
+    "version": "1.0.2",
+    "revision": 4,
     "compatibility": "4.2+",
     "title": "Coordinates Field Type",
     "description": "Draws a Google Map that lets you drop a marker to choose a latitude and longitude. The result is stored in a JSON array. This field type also implements a text box for searching via address and returning a marker.",
@@ -30,9 +30,9 @@
         "settings": [
             {
                 "id": "com.fastspot.coordinates-field-type*api-key",
-                "value": "AIzaSyBk46-POeftG5QOfPDLbbPdqu1Je7AlDgE",
+                "value": "",
                 "type": "text",
-                "options": "",
+                "options": "null",
                 "name": "Coordinates Field Type - API Key",
                 "description": "<p>Enter a Google Maps Javascript API key to enable the Coordinates field type.</p>",
                 "locked": "on",
@@ -42,9 +42,9 @@
             },
             {
                 "id": "com.fastspot.coordinates-field-type*default-latitude",
-                "value": "39.2904",
+                "value": "",
                 "type": "text",
-                "options": "",
+                "options": "null",
                 "name": "Coordinates Field Type - Default Latitude",
                 "description": "<p>This is the default latitude at which the map will be centered when choosing a marker drop point.</p>",
                 "locked": "on",
@@ -54,9 +54,9 @@
             },
             {
                 "id": "com.fastspot.coordinates-field-type*default-longitude",
-                "value": "-76.6122",
+                "value": "",
                 "type": "text",
-                "options": "",
+                "options": "null",
                 "name": "Coordinates Field Type - Default Longitude",
                 "description": "<p>This is the default longitude at which the map will be centered when choosing a marker drop point.</p>",
                 "locked": "on",
@@ -66,9 +66,9 @@
             },
             {
                 "id": "com.fastspot.coordinates-field-type*default-zoom",
-                "value": "15",
+                "value": "",
                 "type": "text",
-                "options": "",
+                "options": "null",
                 "name": "Coordinates Field Type - Default Zoom",
                 "description": "<p>This is the default zoom level at which the map will be drawn when choosing a marker drop point.</p>",
                 "locked": "on",

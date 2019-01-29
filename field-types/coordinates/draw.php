@@ -1,6 +1,6 @@
 <?php
 	// Get API key
-	$api_key = $cms->getSetting("api-key");
+	$api_key = $cms->getSetting("com.fastspot.coordinates-field-type*api-key");
 
 	if (!$api_key) {
 ?>
